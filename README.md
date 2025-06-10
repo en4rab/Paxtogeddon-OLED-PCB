@@ -29,7 +29,7 @@ JP2 and JP3 were to disconnect the card playback pins if that was not needed. In
 
 Once the PCB has been soldered and cleaned use the Halnziye HY910 thermal glue to stick a small aluminium heatsink to the 7805 regulator. Initial tests without a heatsink had the regulator at about 89C adding a small heatsink lowered this to about 75C its a bit of a bodge but it seems to be working ok.
 
-<img src="Images/heatsink.jpg" style="zoom:33%;" />
+<img src="Images/heatsink.jpg" width="33%;" />
 
 ##### Parts used 
 
