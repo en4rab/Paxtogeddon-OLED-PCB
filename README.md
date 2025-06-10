@@ -15,10 +15,11 @@ The gerbers directory contains the gerbers for the v1.2 board and a zip file pax
 
 The case directory contains the STL files for the 3D printed case to suit an Anker 525 power bank.
 
-### Building the PCB
+### Schematic
 
 ![](Images/schematic.png)
 
+### Building the PCB
 #### Assembly
 
 Assembly is fairly straightforward. When soldering the 4 pin female header for the OLED it is easier to align it if you attach the brass standoffs to an OLED, put the header on the OLED pins then use it as a jig to hold the header in position while you solder it.
