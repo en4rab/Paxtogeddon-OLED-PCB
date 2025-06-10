@@ -29,7 +29,7 @@ Build and program a Paxtogeddon reader PCB.
 Print the bracket and the case.
 Using 4 M2 x 10 CSK screws screw the PCB into the bracket.
 
-<img src="images\bracket.jpg" style="zoom:50%;" />
+<img src="images/bracket.jpg" width="50%;" />
 
 Cut the P200 reader cable to length and wire it to the paxtogeddon PCB. Its probably not best practice but I terminated the P200 wires by stripping the wire folding the end back over the insulation then crimping a bootlace ferrule to the end of the wire.
 
@@ -37,12 +37,12 @@ Solder wires to the USB-C to 12v power supply module, trim the wires to length, 
 Connect the wires from the 12v module paying attention to polarity.
 Mount the bracket into the case using 3x M3x10 Cap head screws.
 
-![](images\mounted.jpg)
+![](images/mounted.jpg)
 
 Insert the USB C cable into the 12v module and cable tie it securely to the cable tie loop, then pass the USB-A end through the slot in the case.
 Screw the P200 reader to the case using 4x  M4x10 Cap head screws.
 
-![](images\p200-fitted.jpg)
+![](images/p200-fitted.jpg)
 
 Fit the P200 cover and its retaining screw then slide the Anker power bank into the side of the case.
 
