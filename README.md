@@ -1,2 +1,60 @@
 # Paxtogeddon-OLED-PCB
-Hardware files for the Paxtogeddon reader with OLED display
+#### Hardware files for the Paxtogeddon reader with OLED display
+
+![](C:\Users\en4ra\Documents\GitHub\Paxtogeddon-OLED-PCB\Images\pcb-fb-combined.png)
+
+##### kicad
+
+The kicad directory contains the kicad project files to make a PCB for the Paxtogeddon reader. This was a project to learn Kicad and PCB design so set your expectations accordingly! If you just want to make one Paxtogeddon reader to use then you might find using 00Waz's [protoboard design](https://github.com/00Waz/Paxtogeddon-Reader) quicker and easier than ordering pcb's and smt parts from China.
+
+##### gerbers
+
+The gerbers directory contains the gerbers for the v1.2 board and a zip file paxtogeddon-gerbers_v1_2.zip which is the zip file uploaded to JLC for manufacture. 
+
+##### case
+
+The case directory contains the STL files for the 3D printed case to suit an Anker 525 power bank.
+
+#### Building the PCB
+
+![](Images\schematic.png)
+
+##### Assembly
+
+Assembly is fairly straightforward. When soldering the 4 pin female header for the OLED it is easier to align it if you attach the brass standoffs to an OLDE and pit the header on the OLED pins then use it as a jug to hold the header in position while you solder the header.
+
+The jumper JP1 was for development to allow the 5v to be separated from the ESP32 so the Paxton reader could be powered by 12v while the esp was powered by usb for debugging. In normal use it should be connected.
+
+JP2 and JP3 were to disconnect the card playback pins if that was not needed. In the latest firmware are unused and should be left disconnected.
+
+Once the PCB has been soldered and cleaned use the Halnziye HY910 thermal glue to stick a small aluminium heatsink to the 7805 regulator. Initial tests without a heatsink had the regulator at about 89C adding a small heatsink lowered this to about 75C its a bit of a bodge but it seems to be working ok.
+
+<img src="C:\Users\en4ra\Documents\GitHub\Paxtogeddon-OLED-PCB\Images\heatsink.jpg" style="zoom:33%;" />
+
+##### Parts used 
+
+This is a list of the parts used. They are not necessarily the best source and if you are being organised you could probably source everything in one order from Mouser/RS/Farnell but the links given are what was used. the 8 way screw terminal was 2x4 way terminals as they were easier to source.
+
+| Reference                     | Value                                                        | Footprint | Link                                                  | Price           |
+| ----------------------------- | ------------------------------------------------------------ | --------- | ----------------------------------------------------- | --------------- |
+| C1                            | 330nF 50v                                                    | 0805      | https://www.aliexpress.com/item/1005008635911110.html | £12.59 per 2000 |
+| C2                            | 1uF 16v                                                      | 0805      | https://www.aliexpress.com/item/33052613891.html      | £0.88 per 100   |
+| D1                            | M7 (1N4007)                                                  | A-SMA     | https://www.ebay.co.uk/itm/374441259098               | £4.66 per 100   |
+| J1                            | Screw_Terminal_01x02                                         |           | https://www.aliexpress.com/item/1005003556955422.html | £4 per 50       |
+| J2                            | 2x Screw_Terminal_01x04                                      |           | https://www.aliexpress.com/item/1005003556955422.html | £7.55 per 50    |
+| JP1,JP2,JP3                   | Jumper                                                       |           | https://www.aliexpress.com/item/32853010777.html      | £0.41 per 50    |
+| Q1,Q2,Q3,<br />Q4,Q5,Q6       | MMBT3904                                                     | SOT-23    | https://www.aliexpress.com/item/1005006991695298.html | £6.69 per 3000  |
+| R1,R2,R3,R4,<br />R5,R6,R7,R8 | 1K 1/4W                                                      | 0805      | https://www.aliexpress.com/item/1005006786740896.html | £5.80 per 5000  |
+| U1                            | MC7805CDTG                                                   | TO-252-3  | https://www.aliexpress.com/item/1005007322548974.html | £1.16 per 5     |
+| U2                            | ESP32-C3 Supermini                                           |           | https://www.aliexpress.com/item/1005006056663228.html | £1.89           |
+| U3                            | OLED096-128x64                                               |           | https://www.aliexpress.com/item/1005006700885056.html | £1.74           |
+|                               | 4 pin socket female                                          |           | https://www.ebay.co.uk/itm/192175350096               | £3.89 per 100   |
+|                               | Heatsink                                                     | 9x9x5mm   | https://www.aliexpress.com/item/1005004453446730.html | £4.59 per 50    |
+|                               | Halnziye HY910<br />Thermal glue                             | 5g        | https://www.ebay.co.uk/itm/256626403139               | £2.75           |
+|                               | 11mm M2 brass standoffs and M2 screws to mount the OLED are listed with the case hardware in the case directory |           |                                                       |                 |
+
+
+
+#### Errata
+
+The latest version of the firmware being developed handles playback differently and doesn't use separate pins. This board used GPIO 20 and 21 for playback and jumpers JP2 and JP3 were to physically disconnect the lines if you didn't want to be able to playback cards. As playback is now done with the same pins as reading they are not used and can be left disconnected.  

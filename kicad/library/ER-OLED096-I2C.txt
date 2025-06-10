@@ -1,0 +1,9 @@
+0.96" I2C OLED module library
+This library is based on the one from snapmagic here:
+https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda
+and the 3D step file is from
+https://grabcad.com/library/oled-tft-0-96-inch-64x128-monochrome-i2c-1
+
+
+ESP32 C3 supermini library and step file
+https://www.snapeda.com/parts/ESP32-C3%20SuperMini_SMD/Espressif+Systems/view-part/?ref=eda
