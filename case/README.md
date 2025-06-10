@@ -30,7 +30,7 @@ Print the bracket and the case.
 Using a soldering iron insert the heatset inserts for the reader mounting (M4) and the PCB bracket (M3)  
 Using 4 M2 x 10 CSK screws screw the PCB into the bracket.  
 
-<img src="images/bracket.jpg" width="50%;" />
+<img src="images/bracket.jpg" width="50%;" /><img src="images/bracket-front.jpg" width="50%;" />
 
 Cut the P200 reader cable to length and wire it to the paxtogeddon PCB. Its probably not best practice but I terminated the P200 wires by stripping the wire folding the end back over the insulation then crimping a bootlace ferrule to the end of the wire.
 
