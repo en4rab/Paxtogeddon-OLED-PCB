@@ -21,7 +21,7 @@ The case directory contains the STL files for the 3D printed case to suit an Ank
 
 #### Assembly
 
-Assembly is fairly straightforward. When soldering the 4 pin female header for the OLED it is easier to align it if you attach the brass standoffs to an OLDE and pit the header on the OLED pins then use it as a jug to hold the header in position while you solder the header.
+Assembly is fairly straightforward. When soldering the 4 pin female header for the OLED it is easier to align it if you attach the brass standoffs to an OLED, put the header on the OLED pins then use it as a jig to hold the header in position while you solder it.
 
 The jumper JP1 was for development to allow the 5v to be separated from the ESP32 so the Paxton reader could be powered by 12v while the esp was powered by usb for debugging. In normal use it should be connected.
 
