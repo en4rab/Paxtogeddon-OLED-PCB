@@ -17,7 +17,7 @@ The case directory contains the STL files for the 3D printed case to suit an Ank
 
 ### Firmware
 
-This uses mostly the same code written by Daniel as the [board by OOWaz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The V1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
+This uses mostly the same code written by Daniel as the [board by 00Waz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The V1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
 While V1 works it is messy Daniel is currently working on a v2.0 firmware which should be done in a few weeks. When it is ready a link to it will be added. The pcb files have been put up a little early so the early code is here as a placeholder. 
 
 ### Schematic
