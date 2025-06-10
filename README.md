@@ -9,7 +9,7 @@ The kicad directory contains the kicad project files to make a PCB for the Paxto
 
 #### gerbers
 
-The gerbers directory contains the gerbers for the v1.2 board and a zip file paxtogeddon-gerbers_v1_2.zip which is the zip file uploaded to JLC for manufacture. 
+The gerbers directory contains the gerbers for the v1.2 board and a zip file paxtogeddon-gerbers_v1_2.zip which is the zip file uploaded to JLC for manufacture of the PCB's. 
 
 #### case
 
