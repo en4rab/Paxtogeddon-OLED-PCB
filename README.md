@@ -1,25 +1,25 @@
 # Paxtogeddon-OLED-PCB
-#### Hardware files for the Paxtogeddon reader with OLED display
+### Hardware files for the Paxtogeddon reader with OLED display
 
 ![](Images/pcb-fb-combined.png)
 
-##### kicad
+#### kicad
 
 The kicad directory contains the kicad project files to make a PCB for the Paxtogeddon reader. This was a project to learn Kicad and PCB design so set your expectations accordingly! If you just want to make one Paxtogeddon reader to use then you might find using 00Waz's [protoboard design](https://github.com/00Waz/Paxtogeddon-Reader) quicker and easier than ordering pcb's and smt parts from China.
 
-##### gerbers
+#### gerbers
 
 The gerbers directory contains the gerbers for the v1.2 board and a zip file paxtogeddon-gerbers_v1_2.zip which is the zip file uploaded to JLC for manufacture. 
 
-##### case
+#### case
 
 The case directory contains the STL files for the 3D printed case to suit an Anker 525 power bank.
 
-#### Building the PCB
+### Building the PCB
 
 ![](Images/schematic.png)
 
-##### Assembly
+#### Assembly
 
 Assembly is fairly straightforward. When soldering the 4 pin female header for the OLED it is easier to align it if you attach the brass standoffs to an OLDE and pit the header on the OLED pins then use it as a jug to hold the header in position while you solder the header.
 
@@ -31,7 +31,7 @@ Once the PCB has been soldered and cleaned use the Halnziye HY910 thermal glue t
 
 <img src="Images/heatsink.jpg" width="33%;" />
 
-##### Parts used 
+#### Parts used 
 
 This is a list of the parts used. They are not necessarily the best source and if you are being organised you could probably source everything in one order from Mouser/RS/Farnell but the links given are what was used. the 8 way screw terminal was 2x4 way terminals as they were easier to source.
 
