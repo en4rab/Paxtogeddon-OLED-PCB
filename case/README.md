@@ -25,10 +25,10 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 
 #### Assembly instructions
 
-Build and program a Paxtogeddon reader PCB. 
-Print the bracket and the case. 
-Using a soldering iron insert the heatset inserts for the reader mounting (M4) and the PCB bracket (M3) 
-Using 4 M2 x 10 CSK screws screw the PCB into the bracket. 
+Build and program a Paxtogeddon reader PCB.  
+Print the bracket and the case.  
+Using a soldering iron insert the heatset inserts for the reader mounting (M4) and the PCB bracket (M3)  
+Using 4 M2 x 10 CSK screws screw the PCB into the bracket.  
 
 <img src="images/bracket.jpg" width="50%;" />
 
