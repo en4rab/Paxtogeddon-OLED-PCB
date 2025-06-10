@@ -60,7 +60,7 @@ This is a list of the parts used. They are not necessarily the best source and i
 |                               | 11mm M2 brass standoffs and M2 screws to mount the OLED are listed with the case hardware in the case directory |           |                                                       |                 |
 
 > [!CAUTION]
-> The ESP32 supermini module has a near identical clone that is badly made and has problems with the wifi, this site describes the issue and how to spot the bad boards https://roryhay.es/blog/esp32-c3-super-mini-flaw](https://roryhay.es/blog/esp32-c3-super-mini-flaw) TL;DR avoid the boards with "mouse bites" to separate the boards. If you do get a bad board and wifi doesn't work one test board worked better with a small blob of blu-tak stuck on the antenna simulating a finger touching the antenna. Guess how I figured that one out 🤣
+> The ESP32 supermini module has a near identical clone that is badly made and has problems with the wifi, this site describes the issue and how to spot the bad boards [https://roryhay.es/blog/esp32-c3-super-mini-flaw](https://roryhay.es/blog/esp32-c3-super-mini-flaw) TL;DR avoid the boards with "mouse bites" to separate the boards. If you do get a bad board and wifi doesn't work one test board worked better with a small blob of blu-tak stuck on the antenna simulating a finger touching the antenna. Guess how I figured that one out 🤣
 
 > [!WARNING]  
 > 0.96" OLED modules come in at least 4 different variants the most significant difference being the order of the pins. This board uses a 4 pin module with GND on the left most pin. They also differ in size and hole spacing. look for a seller showing a board with GME12864-11-12-13 on the back as shown.
