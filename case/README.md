@@ -1,5 +1,5 @@
 # Paxtogeddon-OLED-Case
-##### STL files for the Paxtogeddon reader with OLED case to fit Anker 525 power bank
+### STL files for the Paxtogeddon reader with OLED case to fit Anker 525 power bank
 
 The original case design was by 00Waz and this version was edited by en4rab to fit an Anker 525 power bank and pcb reader, any problems with it are en4rab's fault. 
 To make a reader you need "Paxtogeddon reader bracket.stl" and "Paxtogeddon reader case anker.stl" 
@@ -23,7 +23,7 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 
 
 
-##### Assembly instructions
+#### Assembly instructions
 
 Build and program a Paxtogeddon reader PCB.
 Print the bracket and the case.
