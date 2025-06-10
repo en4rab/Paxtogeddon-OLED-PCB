@@ -27,17 +27,4 @@ Note I was not the main writer of this code, but Dan couldn't be bothered to put
 
 ### Bill of materials
 
-* ESP32 dev board
-* 0.22uF Electrolytic capacitor
-* 1uF Electrolytic capacitor
-* 100nF Ceramic capacitor
-* 2x 1kOhm resistors
-* 7805 Voltage Regulator
-* 2x 1A Diodes
-* desire to get root
-
-### Janky Circuit Design
-
-If anyone wants to draw this a bit nicer be my guest
-
-![Janky Circuit Drawing](https://github.com/00Waz/Paxtogeddon-Reader/blob/main/circuit.png?raw=true)
+* See the main page for [hardware details](https://github.com/en4rab/Paxtogeddon-OLED-PCB/) 
