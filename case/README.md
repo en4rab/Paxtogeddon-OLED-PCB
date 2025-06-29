@@ -25,7 +25,7 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 > Since designing this Anker appear to have discontinued the 525 power bank (A1287).
 > An alternative may be to use a USB 5v to 12v boost converter module instead of the power delivery module and a non power delivery Anker powerbank like the 325 Power Bank (A1268) which is the same size.
 > The slightly smaller 313 (A1229) might also work with a 3d printed insert to make the battery slot smaller. 
-> This has not been tested yet but the following boost converter has been ordered for testing.
+> The following boost converter has been ordered for testing and an initial quick test seemed to work.
 
 | Qty  | Desc                                                       | Source                                                       | Price         |
 | ---- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
