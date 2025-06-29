@@ -27,7 +27,9 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 > The slightly smaller 313 (A1229) might also work with a 3d printed insert to make the battery slot smaller. 
 > This has not been tested yet but the following boost converter has been ordered for testing.
 
-| 1    | USB-C to 12v boost converter                               | https://www.aliexpress.com/item/1005004381460387.html       | £1.47  |
+| Qty  | Desc                                                       | Source                                                       | Price         |
+| ---- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
+| 1    | USB-C to 12v boost converter                               | https://www.aliexpress.com/item/1005004381460387.html        | £1.47         |
 
 #### Assembly instructions
 
