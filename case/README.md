@@ -17,11 +17,17 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 | 3    | M3 x 5 x 5OD Heat-Set Threaded Inserts                     | https://www.aliexpress.com/item/1005006798286851.html        | £2.74 per 100 |
 | 4    | M4 x 10 Cap head                                           | https://www.aliexpress.com/item/33008696963.html             | £5.89 per 100 |
 | 3    | M3 x 10 Cap head                                           | https://www.aliexpress.com/item/33008696963.html             | £3.34 per 100 |
+| 1    | TECHGEAR USB Type C Cable 30cm short 90 Degree Right Angle | https://www.amazon.co.uk/TECHGEAR-Reversible-Compatible-Samsung-OnePlus/dp/B07SSSGLJV | £3.95         |
 | 1    | USB-C to 12v power supply module                           | https://www.aliexpress.com/item/1005004381460387.html        | £7.29 per 10  |
 | 1    | Anker 525 Power Bank (PowerCore 20K)                       | https://www.anker.com/uk/products/a1287                      | £30           |
-| 1    | TECHGEAR USB Type C Cable 30cm short 90 Degree Right Angle | https://www.amazon.co.uk/TECHGEAR-Reversible-Compatible-Samsung-OnePlus/dp/B07SSSGLJV | £3.95         |
 
+> [!WARNING]  
+> Since designing this Anker appear to have discontinued the 525 power bank (A1287).
+> An alternative may be to use a USB 5v to 12v boost converter module instead of the power delivery module and a non power delivery Anker powerbank like the 325 Power Bank (A1268) which is the same size.
+> The slightly smaller 313 (A1229) might also work with a 3d printed insert to make the battery slot smaller. 
+> This has not been tested yet but the following boost converter has been ordered for testing.
 
+| 1    | USB-C to 12v boost converter                               | https://www.aliexpress.com/item/1005004381460387.html       | £1.47  |
 
 #### Assembly instructions
 
