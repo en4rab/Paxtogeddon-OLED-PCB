@@ -13,7 +13,7 @@ The gerbers directory contains the gerbers for the v1.2 board and a zip file pax
 
 #### case
 
-The case directory contains the STL files for the 3D printed case to suit an Anker 525 power bank.
+The case directory contains the STL files for the 3D printed case to suit an Anker 525 (or 325 with a USB 5v to 12v boost board) power bank.
 
 ### Firmware
 
