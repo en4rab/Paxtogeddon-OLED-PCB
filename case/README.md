@@ -1,10 +1,12 @@
 # Paxtogeddon-OLED-Case
-### STL files for the Paxtogeddon reader with OLED case to fit Anker 525 power bank
+### STL files for the Paxtogeddon reader with OLED case to fit Anker 525/325 power bank
 
-The original case design was by 00Waz and this version was edited by en4rab to fit an Anker 525 power bank and pcb reader, any problems with it are en4rab's fault. 
-To make a reader you need "Paxtogeddon reader bracket.stl" and "Paxtogeddon reader case anker.stl" 
+The original case design was by 00Waz and this version was edited by en4rab to fit an Anker 325 or 525 power bank and pcb reader, any problems with it are en4rab's fault. 
+To make a reader you need "Paxtogeddon-bracket.stl" and "Paxtogeddon-case-anker.stl" 
 
-If you don’t have a P200 reader but want to make a demo device with a different model of reader there is "Paxtogeddon reader case coverplate.stl" which will adapt a P75 or P50 reader to fit on the case.
+If you don’t have a P200 reader but want to make a demo device with a different model of reader there is "Paxtogeddon-case-coverplate.stl" which will adapt a P75 or P50 reader to fit on the case.
+
+To use the smaller Anker 313 powerbank print "Paxtogeddon-case-infill.stl" and slide this into the hole for the powerbank to resize it.
 
 This is a list of the misc hardware used to mount the pcb and reader into case. The URL's are not necessarily the best place to get the parts you may be able to get stuff cheaper but these are the listings used to get parts from:
 
