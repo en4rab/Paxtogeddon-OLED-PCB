@@ -17,8 +17,8 @@ The case directory contains the STL files and parts list for the 3D printed case
 
 ### Firmware
 
-This uses mostly the same code written by Daniel as the [board by 00Waz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The V1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
-V2 contains Daniel's improved version 2 code which supports both this PCB version and the protoboard design by Waz. It uses custom cards to configure the reader. Information on how to rewrite Paxton cards to use as the config cards can be found in [MAKE-CARDS.md](MAKE-CARDS.md)
+This uses mostly the same code written by Daniel as the [board by 00Waz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The PaxtogeddonReaderV1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
+PaxtogeddonReaderV2 contains Daniel's improved version 2 code which supports both this PCB version and the protoboard design by Waz. It uses custom cards to configure the reader. Information on how to rewrite Paxton cards to use as the config cards can be found in [MAKE-CARDS.md](MAKE-CARDS.md)
 
 
 
