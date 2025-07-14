@@ -13,12 +13,14 @@ The gerbers directory contains the gerbers for the v1.2 board and a zip file pax
 
 #### case
 
-The case directory contains the STL files for the 3D printed case to suit an Anker 525 (or 325 with a USB 5v to 12v boost board) power bank.
+The case directory contains the STL files and parts list for the 3D printed case to suit an Anker 525, 325 or 313 power bank.
 
 ### Firmware
 
 This uses mostly the same code written by Daniel as the [board by 00Waz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The V1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
-While V1 works it is messy Daniel is currently working on a v2.0 firmware which should be done in a few weeks. When it is ready a link to it will be added. The pcb files have been put up a little early so the early code is here as a placeholder. 
+V2 contains Daniel's improved version 2 code which supports both this PCB version and the protoboard design by Waz. It uses custom cards to configure the reader. Information on how to rewrite Paxton cards to use as the config cards can be found in [MAKE-CARDS.md](MAKE-CARDS.md)
+
+
 
 ### Schematic
 

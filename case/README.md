@@ -1,5 +1,5 @@
 # Paxtogeddon-OLED-Case
-### STL files for the Paxtogeddon reader with OLED case to fit Anker 525/325 power bank
+### STL files for the Paxtogeddon reader with OLED case to fit Anker 525/325/313 power bank
 
 The original case design was by 00Waz and this version was edited by en4rab to fit an Anker 325 or 525 power bank and pcb reader, any problems with it are en4rab's fault. 
 To make a reader you need "Paxtogeddon-bracket.stl" and "Paxtogeddon-case-anker.stl" 
@@ -20,19 +20,18 @@ This is a list of the misc hardware used to mount the pcb and reader into case. 
 | 4    | M4 x 10 Cap head                                           | https://www.aliexpress.com/item/33008696963.html             | £5.89 per 100 |
 | 3    | M3 x 10 Cap head                                           | https://www.aliexpress.com/item/33008696963.html             | £3.34 per 100 |
 | 1    | TECHGEAR USB Type C Cable 30cm short 90 Degree Right Angle | https://www.amazon.co.uk/TECHGEAR-Reversible-Compatible-Samsung-OnePlus/dp/B07SSSGLJV | £3.95         |
-| 1    | USB-C to 12v power supply module                           | https://www.aliexpress.com/item/1005004381460387.html        | £7.29 per 10  |
-| 1    | Anker 525 Power Bank (PowerCore 20K)                       | https://www.anker.com/uk/products/a1287                      | £30           |
+| 1    | USB-C to 12v boost converter                               | https://www.aliexpress.com/item/4000926897096.html           | £1.47         |
 
 > [!WARNING]  
 > Since designing this Anker appear to have discontinued the 525 power bank (A1287).
-> An alternative may be to use a USB 5v to 12v boost converter module instead of the power delivery module and a non power delivery Anker powerbank like the 325 Power Bank (A1268) which is the same size.
-> The slightly smaller 313 (A1229) might also work with a 3d printed insert to make the battery slot smaller. 
-> The following boost converter has been ordered for testing and an initial quick test seemed to work.
+> An alternative USB 5v to 12v boost converter module was tested instead of the power delivery module which worked well so a non power delivery powerbank like the Anker 325 (A1268) which is the same size can be used. The slightly smaller 313 (A1229) can also work with a 3d printed insert to make the battery slot smaller. 
+> As the boost converter module works the original power delivery module is no longer recommended and has been replaced in the parts list with the boost converter.
 
-| Qty  | Desc                                                       | Source                                                       | Price         |
-| ---- | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
-| 1    | USB-C to 12v boost converter                               | https://www.aliexpress.com/item/4000926897096.html      | £1.47         |
-| 1    | Anker 325 Power Bank (PowerCore 20K)                       | https://www.anker.com/uk/products/a1268                      | £30           |
+| Qty  | Desc                                 | Source                                  | Price |
+| ---- | ------------------------------------ | --------------------------------------- | ----- |
+| 1    | Anker 525 Power Bank (PowerCore 20K) | https://www.anker.com/uk/products/a1287 | £30   |
+| 1    | Anker 325 Power Bank (PowerCore 20K) | https://www.anker.com/uk/products/a1268 | £30   |
+| 1    | Anker 313 Power Bank (PowerCore 10K) | https://www.anker.com/uk/products/a1229 | £18   |
 
 #### Assembly instructions
 
