@@ -12,18 +12,22 @@ These two cards will allow you to turn off the beep when a card is scanned and a
 
 To convert a normal Paxton card into a Silent operation card use the following commands on your proxmark3:  
 
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d 84030810
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d AE441204
-lf hitag wrbl --ht2 -k BDF5E846 -p 6 -d ADAB0840
-lf hitag wrbl --ht2 -k BDF5E846 -p 7 -d 08610084`  
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d 84030810  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d AE441204  
+lf hitag wrbl --ht2 -k BDF5E846 -p 6 -d ADAB0840  
+lf hitag wrbl --ht2 -k BDF5E846 -p 7 -d 08610084
+```  
 
 Present this card to the reader within 2 mins of power on and it will toggle beeping when reading a card. The reader will still beep once at power on.  
 
 To change a Paxton card to a backlight dimmer card:  
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d 840309C0
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d B06A7A88
-lf hitag wrbl --ht2 -k BDF5E846 -p 6 -d 3CF27840
-lf hitag wrbl --ht2 -k BDF5E846 -p 7 -d 09216084`  
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d 840309C0  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d B06A7A88  
+lf hitag wrbl --ht2 -k BDF5E846 -p 6 -d 3CF27840  
+lf hitag wrbl --ht2 -k BDF5E846 -p 7 -d 09216084
+```  
 
 Each time you present the card it changes the LED brightness very roughly like 100% > 75% > 50% > 25% > off > 100%
 
@@ -46,20 +50,28 @@ The proxmark commands below are assuming you are changing the number of an alrea
 
 ##### 99999999 Test Card
 
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CE7F0006  `
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CE7F0006
+```
 
 ##### 99999998 Reset to Defaults
 
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CA3F0006  `
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CA3F0006
+```
 
 ##### 99999997 Connect to AP
 
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d C9FF0006  `
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d C9FF0006
+```
 
 ##### 99999996 Show AP info
 
-`lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
-lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CDBF0006  `
+```
+lf hitag wrbl --ht2 -k BDF5E846 -p 4 -d CE739CE4  
+lf hitag wrbl --ht2 -k BDF5E846 -p 5 -d CDBF0006
+```
