@@ -3,22 +3,22 @@
 
 ![](Images/pcb-fb-combined.png)
 
-#### kicad
+### kicad
 
 The kicad directory contains the kicad project files to make a PCB for the Paxtogeddon reader. This was a project to learn Kicad and PCB design so set your expectations accordingly! If you just want to make one Paxtogeddon reader to use then you might find using 00Waz's [protoboard design](https://github.com/00Waz/Paxtogeddon-Reader) quicker and easier than ordering pcb's and smt parts from China.
 
-#### gerbers
+### gerbers
 
 The gerbers directory contains the gerbers for the v1.2 board and a zip file paxtogeddon-gerbers_v1_2.zip which is the zip file uploaded to JLC for manufacture of the PCB's. 
 
-#### case
+### case
 
 The case directory contains the STL files and parts list for the 3D printed case to suit an Anker 525, 325 or 313 power bank.
 
 ### Firmware
 
 This uses mostly the same code written by Daniel as the [board by 00Waz](https://github.com/00Waz/Paxtogeddon-Reader) with some additions to write to an OLED display. However the pin assignments are different and the pins to playback a card on this pcb switch transistors so the logic is inverted. The PaxtogeddonReaderV1 directory contains the first attempt at adding an OLED, the additions were done by en4rab so any mistakes and poor code are my fault and not Daniels!  
-PaxtogeddonReaderV2 contains Daniel's improved version 2 code which supports both this PCB version and the protoboard design by Waz. It uses custom cards to configure the reader. Information on how to rewrite Paxton cards to use as the config cards can be found in [MAKE-CARDS.md](MAKE-CARDS.md)
+[PaxtogeddonReaderV2](PaxtogeddonReaderV2) contains Daniel's improved version 2 code which supports both this PCB version and the protoboard design by Waz. It uses custom cards to configure the reader. Information on how to rewrite Paxton cards to use as the config cards can be found in [MAKE-CARDS.md](MAKE-CARDS.md)
 
 
 
