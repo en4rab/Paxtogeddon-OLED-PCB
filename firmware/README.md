@@ -24,14 +24,14 @@ For more info on creating these cards see [MAKE-CARDS.md](MAKE-CARDS.md)
 With this version you can also configure it from the web GUI without the need to reflash it every time you want to change the SSID, change the IP, or change the refresh timer.
 It also has a captive portal for when you connect to the SSID on a phone it loads automatically for quickly accessing the web GUI.
 
-![V2 Settings Page](https://github.com/00Waz/Paxtogeddon-Reader/blob/main/Images/V2_Settings.png?raw=true)
+![V2 Settings Page](../Images/V2_Settings.png)
 
 #### Send card number
 
 Unlike V1, the transmission pins are the same as the capture pins for retransmission of data if connected inline with a reader.
 You can also send a specific number direct from the web GUI if you just want to type one in. This will calculate the CLK/Data and send over the transmission pins.
 
-![Send Card Number](https://github.com/00Waz/Paxtogeddon-Reader/blob/main/Images/Card_Number.png?raw=true)
+![Send Card Number](../Images/Card_replay.png)
 
 #### Companion App
 
