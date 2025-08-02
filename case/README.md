@@ -51,6 +51,11 @@ Mount the bracket into the case using 3x M3x10 Cap head screws.
 ![](images/mounted.jpg)
 
 Insert the USB C cable into the 12v module and cable tie it securely to the cable tie loop, then pass the USB-A end through the slot in the case.
+
+![](images/crimp-ferrule.jpg)
+
+While it is not how ferrules are supposed to be used, the wires from the P200 are quite thin so to terminate them in a manner suitable for screw terminals the ends of the wires were stripped. The stripped wire was then folded back over the insulation and then crimped in a ferrule. 
+
 Screw the P200 reader to the case using 4x  M4x10 Cap head screws.
 
 ![](images/p200-fitted.jpg)
