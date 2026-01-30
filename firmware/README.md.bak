@@ -38,7 +38,6 @@ You can also send a specific number direct from the web GUI if you just want to 
 Nice little hook into a smart watch, so you get live notifications when a read is gained, so you know when you can do a happy root dance (while being hidden).
 
 Another ESP32 board is needed, as it wont all fit onto to the one now, its getting a bit big and the supermini only has one core.
-It requires a connection from the aux pin of the paxtogeddon to the second esp to trigger the second esp when a card is read.
 
 ![Kit layout](PaxtogeddonReaderV2_2/Images-Dan/PR2.jpg)
 
