@@ -51,7 +51,7 @@ It now hooks into a FitPro M4/M5/M6, super cheap on Amazon :)
 Version 2.2 brings support for the Paxton 
 [hands free interface](https://www.paxton-access.com/products/proximity-handsfree-interface-with-plastic-housing/) 
 and [hands free fob](https://www.paxton-access.com/products/net2-hands-free-keyfob/) 
-while these seem to be rare, if you wish to read a hands free fob you can now wire in the hands free interface 
+while these seem to be rare, if you wish to you can now wire in the hands free interface 
 between the reader and the paxtogeddon board and capture the credentials from hands free fobs at a greater distance.
 Paxton documentation suggests up to 2m for an NT200. Fitting this in the current reader case does require cutting 
 one of the screw posts out to make room.  
