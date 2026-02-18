@@ -2,7 +2,7 @@
 
 This directory contains Daniels Paxtogeddon reader firmware.
 
-PaxtogeddonReaderV2 is the current firmware and has the following features:
+PaxtogeddonReaderV2_2 is the current firmware and has the following features:
 
 #### Function cards
 
@@ -32,6 +32,31 @@ Unlike V1, the transmission pins are the same as the capture pins for retransmis
 You can also send a specific number direct from the web GUI if you just want to type one in. This will calculate the CLK/Data and send over the transmission pins.
 
 ![Send Card Number](../Images/Card_replay.png)
+
+#### Smart Watch Notifications
+
+Nice little hook into a smart watch, so you get live notifications when a read is gained, so you know when you can do a happy root dance (while being hidden).
+
+Another ESP32 board is needed, as it wont all fit onto to the one now, its getting a bit big and the supermini only has one core.
+It requires a connection from the aux pin of the paxtogeddon to the second esp to trigger the second esp when a card is read.
+
+![Kit layout](PaxtogeddonReaderV2_2/Images-Dan/PR2.jpg)
+
+![Smart Watch](PaxtogeddonReaderV2_2/Images-Dan/PR4.jpg)
+
+It now hooks into a FitPro M4/M5/M6, super cheap on Amazon :)
+
+#### Support for long range reader and hands free fob
+
+Version 2.2 brings support for the Paxton 
+[hands free interface](https://www.paxton-access.com/products/proximity-handsfree-interface-with-plastic-housing/) 
+and [hands free fob](https://www.paxton-access.com/products/net2-hands-free-keyfob/) 
+while these seem to be rare, if you wish to you can now wire in the hands free interface 
+between the reader and the paxtogeddon board and capture the credentials from hands free fobs at a greater distance.
+Paxton documentation suggests up to 2m for an NT200. Fitting this in the current reader case does require cutting 
+one of the screw posts out to make room.  
+![Making it fit](PaxtogeddonReaderV2_2/Images-Dan/PR5.jpg)
+
 
 #### Companion App
 
