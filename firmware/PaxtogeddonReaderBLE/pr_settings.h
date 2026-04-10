@@ -54,6 +54,7 @@ extern String replayBin;
 
 //BLE
 const extern String bleManufacturerTarget;
+extern uint8_t bleAddrType;
 extern bool bleEnabled;
 extern String bleMAC;
 extern bool bleScanMode;

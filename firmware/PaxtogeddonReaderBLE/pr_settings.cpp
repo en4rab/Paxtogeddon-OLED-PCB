@@ -103,6 +103,7 @@ String replayBin = "";
 
 //BLE - DO NOT CHANGE THESE
 const String bleManufacturerTarget = "716";  // FitPro M4/M5/M6 BLE advertisement name
+uint8_t bleAddrType = 0;
 bool bleEnabled = false;
 String bleMAC = "";
 bool bleScanMode = false;

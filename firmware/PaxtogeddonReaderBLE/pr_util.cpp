@@ -30,6 +30,7 @@ void SettingsInit(void) {
     prSettings::oledConnected = preferences.getBool("OLED_CON", prSettings::oledConnected);
     prSettings::bleEnabled = preferences.getBool("BLE_EN", prSettings::bleEnabled);
     prSettings::bleMAC = preferences.getString("BLE_MAC", prSettings::bleMAC);
+    prSettings::bleAddrType = preferences.getUChar("BLE_ATYPE", prSettings::bleAddrType);
     if (prSettings::bleEnabled && prSettings::bleMAC == "") {
       prSettings::bleScanMode = true;  // no MAC saved yet — scan on next boot
     }
@@ -118,6 +119,7 @@ void SaveSettings(void) {
   preferences.putBool("OLED_CON", prSettings::oledConnected);
   preferences.putBool("BLE_EN", prSettings::bleEnabled);
   preferences.putString("BLE_MAC", prSettings::bleMAC);
+  preferences.putUChar("BLE_ATYPE", prSettings::bleAddrType);
   preferences.putBool("prs_ok", true);
   preferences.end();
 }

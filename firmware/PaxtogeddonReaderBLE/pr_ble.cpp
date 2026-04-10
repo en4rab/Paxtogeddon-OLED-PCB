@@ -24,7 +24,7 @@ void MaintainConnection(void) {
   pClient->disconnect();
   pCharacteristic = nullptr;
 
-  NimBLEAddress bleAddress(prSettings::bleMAC.c_str(), BLE_ADDR_RANDOM);
+  NimBLEAddress bleAddress(prSettings::bleMAC.c_str(), prSettings::bleAddrType);
   pClient->connect(bleAddress);
   if (pClient->isConnected()) {
     NimBLERemoteService *pService = pClient->getService("6e400001-b5a3-f393-e0a9-e50e24dcca9d");
@@ -42,6 +42,7 @@ class BLECallBack : public NimBLEScanCallbacks {
     if (bleDevice->getName() == prSettings::bleManufacturerTarget.c_str()
         && prSettings::bleMAC == "") {
       NimBLEDevice::getScan()->stop();
+      prSettings::bleAddrType = bleDevice->getAddress().getType();
       prSettings::bleMAC = bleDevice->getAddress().toString().c_str();
     }
   }
